@@ -1,0 +1,108 @@
+{
+  "_fv": 6,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Six Headed Dragon",
+    "mobLabel": "",
+    "mobModelTexture": "red_1.png",
+    "mobModelName": "Chicken",
+    "modelWidth": 0.4,
+    "modelHeight": 0.7,
+    "modelShadowSize": 0.5,
+    "armorBaseValue": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -26368,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -26368,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": "Items.ENCHANTED_BOOK"
+    },
+    "equipmentOffHand": {
+      "value": "Items.KNOWLEDGE_BOOK"
+    },
+    "equipmentHelmet": {
+      "value": "Blocks.STRUCTURE_BLOCK#3"
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "movementSpeed": 0.3,
+    "trackingRange": 64,
+    "health": 10,
+    "xpAmount": 5,
+    "waterMob": false,
+    "flyingMob": true,
+    "disableCollisions": false,
+    "ridable": true,
+    "canControlForward": true,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": true,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": "Blocks.DRAGON_EGG"
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "onPlayerCollidesWith": {
+      "name": "SixHeadedDragonPlayerCollidesWithThisEntity"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"move_indoors\"><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayerMP</field><next><block type=\"attack_fly\"><field name=\"radius\">16</field><field name=\"speed\">1</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><next><block type=\"follow_entity\"><field name=\"speed\">3</field><field name=\"maxrange\">10</field><field name=\"followarea\">5</field><next><block type=\"fly\"><field name=\"speed\">3.8</field><next><block type=\"look_around\"/></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 100,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 5,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

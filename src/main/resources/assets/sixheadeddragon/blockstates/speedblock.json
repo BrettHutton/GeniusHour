@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "sixheadeddragon:block/speedblock"
+    },
+    "facing=north": {
+      "model": "sixheadeddragon:block/speedblock"
+    },
+    "facing=east": {
+      "model": "sixheadeddragon:block/speedblock",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "sixheadeddragon:block/speedblock",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "sixheadeddragon:block/speedblock",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "sixheadeddragon:block/speedblock",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

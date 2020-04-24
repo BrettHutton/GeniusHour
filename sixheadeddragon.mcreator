@@ -1,0 +1,82 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "SixHeadedDragonPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SixHeadedDragon",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Speedblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Owen",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.sixheadeddragon.owenbody": "Owen Body",
+      "item.sixheadeddragon.sixheadeddragon": "Six Headed Dragon Spawn Egg",
+      "item.sixheadeddragon.owenlegs": "Owen Leggings",
+      "block.sixheadeddragon.speedblock": "Speedblock",
+      "item.sixheadeddragon.owenhelmet": "Owen Helmet",
+      "item.sixheadeddragon.owenboots": "Owen Boots",
+      "entity.sixheadeddragon.sixheadeddragon": "Six Headed Dragon"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "sixheadeddragon",
+    "modName": "Six Headed Dragon",
+    "version": "1.0.0",
+    "author": "OwenHutton, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.14.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.sixheadeddragon",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}
